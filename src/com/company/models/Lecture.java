@@ -27,4 +27,9 @@ public class Lecture extends Physical {
         this.disc = disc;
     }
 
+    public String getLectureDetails() {
+        String details = this.getClassName() + this.getProf() + this.getRoom() + this.getTime() "-" + this.getEndTime() + this.getDesc();
+        return details;
+    }
+
 }

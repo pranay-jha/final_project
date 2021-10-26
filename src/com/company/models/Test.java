@@ -4,6 +4,7 @@ public class Test extends Physical {
 
     public int day;
     public int month;
+    public String details;
 
     public Test(String className, String prof, String desc, int time, int endTime, String room, int day, int month) {
         super(String className, String prof, String desc, int time, int endTime, String room);
@@ -26,5 +27,6 @@ public class Test extends Physical {
     public void setMonth(int month) {
         this.month = month;
     }
+
 
 }
