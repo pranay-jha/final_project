@@ -84,12 +84,6 @@ public class TempCmdLineView {
         }
         in.close();
     }
-
-    public void displayWeekly() {
-        System.out.println("MONDAY:");
-        for(i = 0; i < lectures.size(); i++) {
-            if lectures.get(i).
-        }
-
+    //make db and figure out gui next week
     }
 }
